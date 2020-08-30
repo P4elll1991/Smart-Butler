@@ -3,6 +3,7 @@ export default function MainConfig() {
     cols: [
       { view: "menu" },
       { template: '<a route="data">Data</a>' },
+      { template: '<a route="/top">Data</a>' },
       { $subview: true, popup: true },
     ],
   };
